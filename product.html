@@ -1,0 +1,23 @@
+﻿{% extends "base.html" %}
+
+{% block title %}Товар{% endblock %}
+
+{% block main %}
+<div class="back2">
+    <div class="card_img">
+            <img src="/static/img/{{ img }}" alt="" width="700" height="700">
+    </div>
+    <div class="prod_card2">
+        <div class="card_text">
+            <h1 class="header2">{{ name }}</h1>
+            <p>1 кг {{ price }} руб.</p>
+        </div>
+        <div class="card_text">
+            <p><em>{{ desc }}</em></p>
+        </div>
+        <div>
+	    <img src="/static/img/bean.png" alt="">
+	</div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,208 @@
+﻿#nav_bar{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#nav_bar a{
+    text-decoration: none;
+    width: 150px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    transition: color 500ms ease;
+    color: #967259;
+    text-transform: uppercase;
+}
+
+#nav_bar a:hover{
+    color: #ceb19c;
+}
+
+#main{
+    background-color: transparent;
+    margin: 0px, 7%;
+    height: 500px;
+
+}
+
+body{
+    background-image: url("/static/img/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: scroll
+}
+
+.back{
+    background: rgba(150, 114, 89, 0.3);
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    color: #dbc1ac;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0px 80px 0px 80px;
+}
+
+.back2{
+    background: rgba(150, 114, 89, 0.3);
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    color: #dbc1ac;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 40px 0px 40px;
+}
+
+.prod_card{
+    text-align: center;
+}
+
+.prod_card2{
+    text-align: center;
+    max-width: 400px;
+    line-height: 2.0;
+    
+}
+
+.info_box{
+    margin-top: 25px;
+    margin-left: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+}
+
+.info_container{
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #dbc1ac;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0px 40px;
+}
+
+.header{
+    font-family: 'Kurale'; 
+    font-size: 70px;
+    text-transform: uppercase;
+    margin: 20px 0 20px;
+}
+
+.header2 {
+    font-family: 'Kurale';
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#more{
+	display: none;
+}
+
+#btn{
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    transition: color 500ms ease;
+    color: #967259;
+    text-transform: uppercase;
+}
+
+#btn:hover {
+    color: #ceb19c;
+}
+
+
+.s1_button{
+    margin: 15px 0px 15px;
+    padding: 5px;
+    border-style: double;
+    border-width: 1px;
+    border-color: #967259;
+    background-color: transparent;
+    transform: translate(0px, 0px);
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    transition: background-color 500ms ease;
+    color: #967259;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    display: inline-block;
+}
+
+.s1_button:hover{
+    border-color: #ceb19c;
+    background-color: #ceb19c;
+}
+
+.column {
+    margin-top: 25px;
+    margin-left: 45%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    color: #dbc1ac;
+    padding: 0px 40px;
+    line-height: 1.5;
+}
+
+.card_img img {
+    margin: 0 0 0 -50px;
+}
+
+.column-1 {
+    margin-top: 25px;
+    margin-left: 45%;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    color: #dbc1ac;
+    padding: 0px 40px;
+    line-height: 1.5;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: center;
+}
+ 
+.social-icons a{
+  margin: 0 10px;
+}
+ 
+.social-icons img{
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s;
+}
+ 
+.social-icons a:hover img{
+  transform: scale(1.2);
+}
+
+.team_jpg{
+    margin: 0px 0px 15px;
+    text-align: center;
+}
+
+    
+@font-face {
+    font-family: 'Kurale';
+    src: url("/static/fonts/Kurale-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+

@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/main_style.css">
+    <title>{% block title %}{% endblock%}</title>
+</head>
+<body>
+    <div id="header">
+        <div id="logo"></div>
+        <div id="login"></div>
+    </div>
+    <div id="nav_bar">
+        {% for b in menu %}
+            <a href="{{b.link}}">{{b.name}}</a>
+        {% endfor %}
+    </div>
+    <div id="main">
+        {% block main %}
+        {% endblock %}
+    </div>
+	<script src="/static/js/article.js"></script>
+</body>
+</html>

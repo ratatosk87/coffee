@@ -1,0 +1,19 @@
+﻿{% extends "base.html" %}
+
+{% block title %}Магазин{% endblock %}
+
+{% block main %}
+<div class="back">
+    {% for c in cards %}
+    <div class="prod_card">
+        <div>
+            <a href="shop/{{c.id}}"><img src="/static/img/{{c.img}}" alt="" width="400" height="400"></a>
+        </div>
+        <div class="card_text">
+            <h3>{{ c.name }}</h3>
+            <p>1 кг {{ c.price }} руб.</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

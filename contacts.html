@@ -1,0 +1,32 @@
+﻿{% extends "base.html" %}
+
+{% block title %}Контакты{% endblock %}
+
+{% block main %}
+<div class="column">
+    <div class="info_container">
+        <img src="/static/img/first_logo.png" alt="">
+    </div>
+        <h3>МАГАЗИНЫ</h3>
+        <p> Москва, ул. Весенняя, д. 11<br>
+        Санкт-Петербург, ул. Вешних вод, д. 32</p>
+        <h3>ПОДПИСКА НА НОВОСТИ</h3>
+        <div class="post-form">
+            <form id="email-form" name="email-form" data-name="Email Form" class="form"><input type="email" class="pole w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Ваш E-mail" id="email-2" required=""><input type="submit" value="отправить" class="s1_button"</form>
+        </div>
+    <h3>МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h3>
+    <div class="social-icons">
+        <a href="https://t.me/Ratatosk666" target="_blank">
+            <img src="/static/img/teleg.png" alt="Telegram Icon">
+        </a>
+        <a href="https://vk.com/ratatoskborgar" target="_blank">
+            <img src="/static/img/vk.png" alt="Vkontakte Icon">
+        </a>
+        <a href="https://pin.it/1Ro0ik1" target="_blank">
+            <img src="/static/img/pin.png" alt="Pinterest Icon">
+        </a>
+    </div>
+</div>
+
+{% endblock %}
+
